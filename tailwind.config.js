@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "tailwind": "url(/assets/tailwind.svg)"
-      }
+        tailwind: "url(/assets/tailwind.svg)",
+      },
+      gridTemplateRows: {
+        "a-frc-a": "auto 1fr auto",
+      },
     },
   },
   plugins: [tailmotion],

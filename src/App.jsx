@@ -4,7 +4,7 @@ import tailwindconfig from '../public/assets/image.png'
 
 export const App = () => {
   return (
-    <main className="container mx-auto px-2 text-white animate-blurred-fade-in animate-duration-1000">
+    <main className="container mx-auto px-2 grid grid-rows-a-frc-a text-white animate-blurred-fade-in animate-duration-1000">
         <header className="py-8 flex flex-col items-center gap-3 text-center">
           <h1 className="font-semibold text-4xl">Tailmotion </h1>
           <p className="text-slate-400">Un plugin para hacer animaciones facilmente con Tailwind CSS!</p>
@@ -19,6 +19,15 @@ export const App = () => {
         <section>
           <Grid />
         </section>
+        <footer className="p-4 flex flex-col gap-2 items-center text-slate-500">
+          <a className="hover:text-sky-400" href="https://animation.ibelick.com/" target="_blank">
+            Basado en animation.ibelick de Julien Thibeaut
+          </a>
+          <p>
+            Una adaptación de <a className="hover:text-sky-400" href="https://github.com/Beto-Dz" target="_blank">@Beto</a>.
+            Siguiendo el tutorial de <a className="hover:text-sky-400 font-semibold" href="https://github.com/midudev">@midudev</a> 
+          </p>
+        </footer>
     </main>
   )
 }
