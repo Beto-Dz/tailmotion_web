@@ -1,6 +1,6 @@
 import { CopyClipboard } from "./components/CopyClipboard"
 import { Grid } from "./components/Grid"
-import tailwindconfig from '../public/assets/image.png'
+import tailwindconfig from '../public/assets/tailwindconfig.png'
 
 export const App = () => {
   return (

@@ -1,8 +1,21 @@
-# React + Vite
+# Tailmotion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La manera más sencilla de agregar animaciones a tu web utilizando Tailwind css!
 
-Currently, two official plugins are available:
+![webpage mock](./public/assets/mock.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>[!IMPORTANT]
+> Tailmotion solo es un plugin de tailwind, es decir, un complemento, por lo que deberías tener instalado Tailwind css en tu proyecto previamente.
+
+Para instalar el plugin solo sigue estos sencillos pasos:
+1. Instala la dependencia:
+    ```
+        npm i @betodz/tailmotion
+    ```
+2. Agrega el plugin en la configuración de tailwind
+
+![tailwind config file](./public/assets/tailwindconfig.png)
+
+3. Utiliza las clases, puedes copiar directamente la clase desde la web y agregarla en cualquier elemento
+
+![tailmotion ejemplo de uso](./public/assets/caseuse.png)
